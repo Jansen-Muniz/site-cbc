@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+  --color1: #B6F2BC;
+  --color2: #62D96D;
+  --color3: #4FB059;
+  --color4: #46994F;
+  --color5: #103b14;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2, p, a, span {
+  color: var(--color5);
+}
+
+.container {
+  padding: 1rem 2rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  padding-top: .5rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(var(--color3), var(--color1));
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.267);
+}
+
+header .container-texto-cabecalho {
+  color: #fff;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.container-logo-titulo-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-logo-titulo-cabecalho img {
+  width: 8rem;
+}
+
+.container-texto-cabecalho h1 {
+  font-size: 3rem;
+}
+
+.container-texto-cabecalho p,
+.titulo-nossa-historia {
+  color: #fff;
+}
+
+.titulo-nossa-historia {
+  font-size: 2rem;
+  text-shadow: 1px 1px 5px #000;
+}
+
+nav ul{
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--color3);
+}
+
+section {
+  display: flex;
+  align-items: center;
+}
+
+#secao1,
+#quem-somos,
+#professores,
+#atividades,
+#fotos,
+.fale-conosco {
+  height: 50rem;
+}
+
+.container-secao1,
+.container-quem-somos {
+  display: flex;
+  align-items: center;
+}
+
+.container-quem-somos{
+  flex-direction: column;
+}
+
+.container-quem-somos div{
+  padding-top: 1rem;
+}
+
+.container-texto-secao-1,
+.container-texto-quem-somos {
+  padding: 0 20rem;
+}
+
+#secao1 .container-texto-secao-1,
+.container-texto-quem-somos {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container-texto-quem-somos {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.texto-secao-1, .texto-quem-somos {
+  color: var(--color5);
+  line-height: 1.5rem;
+}
+
+#professores,
+#atividades,
+#fotos {
+  justify-content: center;
+}
+
+footer .conteudo-rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  height: 80vh;
+}
+
+footer .container-logo-endereco {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+footer .container-logo-endereco img {
+  width: 15rem;
+}
+
+footer .form-rodape,
+footer .container-logo-endereco {
+  text-align: center;
+}
+
+footer .item-endereco {
+  line-height: 2rem;
+  list-style: none;
+}
+
+footer .texto-endereco {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer .form-rodape h2 {
+  margin: 1rem;
+}
+
+footer textarea {
+  width: 20rem;
+  height: 10rem;
+  border: 1px solid var(--color5);
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+footer .container-logo-endereco img{
+  width: 10rem;
+}
+
+footer input[type="submit"] {
+  border: none;
+  background-color: var(--color5);
+  color: #fff;
+  padding: .5rem;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+footer input[type="submit"]:hover {
+  background-color: var(--color4);
+}
+
+footer .container-desenvolvido-por {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+footer .material-symbols-outlined {
+  color: var(--color5);
+  font-size: 2rem;
+}
+
+footer .container-desenvolvido-por {
+  display: flex;
+  align-items: end;
+}
+
+footer .container-desenvolvido-por p,
+footer .container-desenvolvido-por a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer .container-desenvolvido-por a {
+  text-decoration: none;
+}
