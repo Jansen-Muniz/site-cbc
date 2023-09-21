@@ -70,7 +70,7 @@ header .container-texto-cabecalho {
   text-shadow: 1px 1px 5px #000;
 }
 
-nav ul{
+nav ul {
   display: flex;
   gap: 1rem;
 }
@@ -104,7 +104,7 @@ section {
 
 #secao1,
 #quem-somos,
-#volutarios,
+#voluntarios,
 #atividades,
 #fotos,
 .fale-conosco {
@@ -117,11 +117,11 @@ section {
   align-items: center;
 }
 
-.container-quem-somos{
+.container-quem-somos {
   flex-direction: column;
 }
 
-.container-quem-somos div{
+.container-quem-somos div {
   padding-top: 1rem;
 }
 
@@ -147,7 +147,7 @@ section {
   line-height: 1.5rem;
 }
 
-#volutarios,
+#voluntarios,
 #atividades,
 #fotos {
   justify-content: center;
@@ -199,7 +199,7 @@ footer textarea {
   padding: .5rem;
 }
 
-footer .container-logo-endereco img{
+footer .container-logo-endereco img {
   width: 10rem;
 }
 
