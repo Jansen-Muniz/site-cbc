@@ -104,7 +104,7 @@ section {
 
 #secao1,
 #quem-somos,
-#professores,
+#volutarios,
 #atividades,
 #fotos,
 .fale-conosco {
@@ -147,7 +147,7 @@ section {
   line-height: 1.5rem;
 }
 
-#professores,
+#volutarios,
 #atividades,
 #fotos {
   justify-content: center;
@@ -188,6 +188,7 @@ footer .texto-endereco {
 
 footer .form-rodape h2 {
   margin: 1rem;
+  font-size: 1rem;
 }
 
 footer textarea {
